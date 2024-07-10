@@ -1,0 +1,10 @@
+baseURL = 'http://elutins-hugo-screencast.s3-website-us-east-1.amazonaws.com/'
+languageCode = 'en-us'
+title = 'Evans New Hugo Site'
+theme = 'ananke'
+
+[deployment]
+
+[[deployment.targets]]
+name = "aws static s3"
+URL = "s3://elutins-hugo-screencast/?region=us-east-1"
